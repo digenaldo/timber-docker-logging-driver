@@ -1,0 +1,20 @@
+{
+  "description": "Timber logging driver",
+  "documentation": "https://github.com/timberio/timber-docker-logging-driver",
+  "entrypoint": ["/usr/bin/timber-docker-logging-driver"],
+  "network": {
+    "type": "host"
+  },
+  "interface": {
+    "types": ["docker.logdriver/1.0"],
+    "socket": "timber.sock"
+  },
+  "env": [
+    {
+      "name": "LOG_LEVEL",
+      "description": "Set log level to output for plugin logs",
+      "value": "info",
+      "settable": ["value"]
+    }
+  ]
+}

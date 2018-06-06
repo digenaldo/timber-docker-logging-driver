@@ -1,0 +1,7 @@
+.vscode
+
+# dep
+vendor
+
+# local plugin files
+rootfs
