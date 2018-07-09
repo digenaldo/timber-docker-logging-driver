@@ -1,5 +1,3 @@
-# Installation
-
 To install the Timber Docker logging plugin on a host:
 
 ```bash

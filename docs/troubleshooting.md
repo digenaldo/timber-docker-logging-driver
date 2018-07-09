@@ -1,4 +1,4 @@
-# Troubleshooting
+# Driver Troubleshooting
 
 If you're having trouble, don't hesitate to [contact us]! We're passionate about providing good support and user experiences.
 

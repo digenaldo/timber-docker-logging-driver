@@ -1,4 +1,4 @@
-# Configuration
+# Driver Configuration
 
 The Timber Docker logging driver exposes its configuration options Docker options.
 
