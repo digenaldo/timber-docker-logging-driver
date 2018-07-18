@@ -14,7 +14,7 @@
 
     `$INSTANCE_ID` is the id of a container not using a custom log path.
 
-1. Configure the Timber Agent to watch all files on the Docker log path
+2. Configure the Timber Agent to watch all files on the Docker log path
 
     _Options for the Timber Agent config file can be found [here](https://docs.timber.io/platforms/other/timber-agent/configuration-file/)._
 
@@ -26,7 +26,7 @@
     [[files]]
     path = "/var/log/containers/*"
     ```
-1. Run Timber Agent container
+3. Run Timber Agent container
 
     ```bash
     docker run \

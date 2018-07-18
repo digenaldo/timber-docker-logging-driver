@@ -1,12 +1,10 @@
-To install the Timber Docker logging plugin on a host:
+1. To install the Timber Docker logging plugin on a host:
 
 ```bash
 docker plugin install timberio/docker-logging-driver:0.1.0 --alias timber
 ```
 
-## Usage
-
-To use the Timber Docker logging driver on a single container, run the container with the following options:
+2. To use the Timber Docker logging driver on a single container, run the container with the following options:
 
 ```bash
 docker run --log-driver timber \
@@ -21,7 +19,7 @@ Docker daemon](https://docs.docker.com/engine/reference/commandline/dockerd/#dae
 
 Assuming the host system is Linux:
 
-1. Add the necessary configuration to `/etc/docker/daemon.json` replacing `my-timber-api-key` with your API key
+2. Add the necessary configuration to `/etc/docker/daemon.json` replacing `my-timber-api-key` with your API key
 
     ```json
     {
@@ -32,10 +30,10 @@ Assuming the host system is Linux:
     }
     ```
 
-1. (Re)start the Docker daemon
+3. (Re)start the Docker daemon
 
     ```bash
     sudo service docker restart
     ```
 
-1. (Re)start Docker containers
+4. (Re)start Docker containers
