@@ -24,7 +24,7 @@
     default_api_key = "TIMBER_API_KEY"
 
     [[files]]
-    path = "/var/log/containers/*"
+    path = "/var/log/containers/**/*.log"
     ```
 3. Run Timber Agent container
 
@@ -32,7 +32,7 @@
     docker run \
       -v $DOCKER_LOG_PATH:/var/log/containers \
       -v $TIMBER_TOML_PATH:/etc/timber.toml \
-      timberio/agent:0.8.1
+      timberio/agent:0.9.2 capture-files
     ```
 
     `$DOCKER_LOG_PATH` is the path where Docker container log files are stored.
