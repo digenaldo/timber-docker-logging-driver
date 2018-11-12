@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.1.1] - 2018-11-12
+
+### Added
+
+  - Add support for reading container logs via `docker logs`
+
 ## [0.1.0] - 2018-06-06
 
 ### Added
