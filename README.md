@@ -20,7 +20,7 @@ _Only container logs on stdout and stderr will be collected and shipped._
 To install the Timber Docker logging plugin on a host:
 
 ```bash
-docker plugin install timberio/docker-logging-driver:0.1.0 --alias timber
+docker plugin install timberio/docker-logging-driver:0.1.1 --alias timber
 ```
 
 To verify the plugin is installed and enabled:

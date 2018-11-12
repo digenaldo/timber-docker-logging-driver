@@ -19,5 +19,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
   - Initial implementation of Timber Docker logging driver
 
-[Unreleased]: https://github.com/timberio/timber-docker-logging-driver/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/timberio/timber-docker-logging-driver/tree/v0.0.1
+[Unreleased]: https://github.com/timberio/timber-docker-logging-driver/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/timberio/timber-docker-logging-driver/compare/v0.1.0...v0.1.1
+[0.1.0]: https://github.com/timberio/timber-docker-logging-driver/tree/v0.1.0

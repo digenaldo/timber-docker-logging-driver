@@ -1,7 +1,7 @@
 1. To install the Timber Docker logging plugin on a host:
 
 ```bash
-docker plugin install timberio/docker-logging-driver:0.1.0 --alias timber
+docker plugin install timberio/docker-logging-driver:0.1.1 --alias timber
 ```
 
 2. To use the Timber Docker logging driver on a single container, run the container with the following options:
