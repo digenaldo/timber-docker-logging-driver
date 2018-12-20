@@ -12,7 +12,7 @@
     e48d96758131806372b694199e6eac78f4d56d3d504e92e60e763b75d8de593f-json.log
     ```
 
-    `$INSTANCE_ID` is the id of a container not using a custom log path.
+    `$CONTAINER_ID` is the id of a container not using a custom log path.
 
 2. Configure the Timber Agent to watch all files on the Docker log path
 
