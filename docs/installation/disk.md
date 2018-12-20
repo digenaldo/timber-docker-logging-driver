@@ -3,7 +3,7 @@
     _On linux systems, the default log location for a container is `/var/lib/docker/containers/<container id>/<container id>-json.log`_
 
     ```bash
-    docker inspect --format='{{.LogPath}}' $INSTANCE_ID
+    docker inspect --format='{{.LogPath}}' $CONTAINER_ID
     ```
 
     ```text
@@ -29,10 +29,11 @@
 3. Run Timber Agent container
 
     ```bash
-    docker run \
+    docker run --restart always \
+      -v /var/lib/timber-agent:/var/lib/timber-agent \
       -v $DOCKER_LOG_PATH:/var/log/containers \
       -v $TIMBER_TOML_PATH:/etc/timber.toml \
-      timberio/agent:0.9.2 capture-files
+      timberio/agent:0.9.3 capture-files
     ```
 
     `$DOCKER_LOG_PATH` is the path where Docker container log files are stored.
