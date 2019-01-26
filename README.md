@@ -48,7 +48,7 @@ docker plugin rm timber
 Docker logging drivers can be used in two ways, on a per container basis or for every container on a host.
 
 _Both options require a Timber API key.
-If you need a key go [here](https://timber.io/docs/app/applications/obtaining-api-key)._
+If you need a key go [here](https://docs.timber.io/app/applications/obtaining-your-api-key/)._
 
 ### Per Container
 
